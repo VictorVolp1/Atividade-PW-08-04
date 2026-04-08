@@ -23,7 +23,6 @@ $(document).ready(function() {
 
             success: async function(resposta) {
                 try {
-                    // Traduz setup e punchline
                     const traducaoSetup = await traduzirTexto(resposta.setup);
                     const traducaoPunchline = await traduzirTexto(resposta.punchline);
 
