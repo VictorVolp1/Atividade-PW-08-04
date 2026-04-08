@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Bootstrap - Aula</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.html">Dengue</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" title="Página inicial">
+                    <i class="bi bi-house"></i> Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="jquery.html">
+                    <i class="bi bi-input-cursor-text"></i> JQuery
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="calculos.html">
+                    <i class="bi bi-calculator"></i> Cálculos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="validacaoForm.html">
+                    <i class="bi bi-check-circle"></i> Validação JQuery
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cep.html">
+                    <i class="bi bi-geo-alt"></i> API CEP
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="detalhes_pais.html">
+                    <i class="bi bi-globe"></i> API Países
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="localStorage.html">
+                    <i class="bi bi-database"></i> Storage
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Tarefa1.html">
+                    <i class="bi bi-emoji-smile"></i> Piadas Aleatórias
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Tarefa2.html">
+                    <i class="bi bi-file-earmark-person"></i> Formulário
+                </a>
+            </li>
+        </ul>
+    </div>
+    <span class="navbar-text d-none d-lg-block">
+        <a style="text-decoration: none; color: white;" href="#">Imagem aqui</a>
+    </span>
+</nav>
+    <div id="resultado"></div>
+
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+        </nav>
+<div class="container text-center">
+    <div class="card shadow mx-auto" style="max-width: 400px;">
+        <div class="card-body">
+            <img src="https://cdn-icons-png.flaticon.com/512/742/742751.png" alt="Piada" width="80" class="mb-3">
+            
+            <h5 class="card-title text-muted">Piada Aleatória</h5>
+            <hr>
+
+            <div id="setup" class="mb-2 fw-bold"></div>
+            <div id="punchline" class="text-muted"></div>
+
+            <p id="data-atualizacao" class="small text-muted mt-2">
+                Clique no botão para gerar uma piada
+            </p>
+            
+            <button id="btn-piada" class="btn btn-primary w-100 mt-3 text-white fw-bold">
+                NOVA PIADA
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="../exemplo_js/js/Tarefa1.js"></script>
+
+</body>
+</html>
