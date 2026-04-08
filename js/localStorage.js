@@ -89,6 +89,6 @@ Ficam salvos até serem apagados manualmente
     // muda botão para atualizar
     $("#salvar").text("Atualizar").removeClass("btn-success").addClass("btn-primary");
   });
-
+  
   carregar(); // carrega ao iniciar
 });

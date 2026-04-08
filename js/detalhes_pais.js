@@ -10,7 +10,6 @@ $.getJSON("https://restcountries.com/v3.1/name/venezuela", function (data) {
   console.log(data[0].flags.png);
 });
 */
-
 $(document).ready(function () {
   $("#detalhes_pais").on("change", function () {
     const detalhes_pais = $(this).val();
@@ -60,4 +59,5 @@ $(document).ready(function () {
   function limparCampos() {
     $("#rua, #bairro, #cidade, #estado").val("");
   }
+  
 });

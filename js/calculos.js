@@ -72,5 +72,5 @@ $("#calcular").click(function () {
     $("#txtfatorial")
         .text("Fatorial de " + valor + " é: " + fatorial)
         .css({ 'font-weight': 'bold', 'font-size': '14pt', 'color': '#0000FF' });
- 
+
 });

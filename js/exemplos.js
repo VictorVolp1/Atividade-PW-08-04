@@ -39,4 +39,5 @@ $("#alternar2").click(function () {
     $("#link").text("Fatec");
     $("#alternar2").hide();
     $("#alternar1").show();
+    
 });

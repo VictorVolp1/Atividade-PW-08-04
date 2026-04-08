@@ -38,5 +38,6 @@ $("#formExemplo").validate({
             max : "Valor máximo: 100",
         }
     }
+    
 });
 

@@ -3,6 +3,7 @@ $(document).ready(function () {
     //qdo a caixa perde o foco
     // Verifica se o campo de CEP está vazio
     const cep = $(this).val().replace(/\D/g, ""); // Remove caracteres não numéricos
+    
 
     // Verifica se o CEP tem 8 dígitos
     // Se o CEP não for vazio e tiver 8 dígitos, faz a requisição
