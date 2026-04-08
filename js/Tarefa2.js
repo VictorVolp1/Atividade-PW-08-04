@@ -57,10 +57,24 @@ $(document).ready(function() {
                 min: "Você deve ter pelo menos 18 anos.",
                 max: "A idade máxima é 65 anos."
             },
+            telefone: {
+                required: "Por favor, insira seu telefone.",
+                minlength: "O telefone deve seguir o formato (00) 00000-0000."
+            },
+            cpf: {
+                required: "Por favor, insira seu CPF.",
+                cpfBR: "CPF inválido. Use o formato 000.000.000-00."
+            },
+            area: "Selecione uma área de interesse.",
             experiencia: {
                 minlength: "Descreva sua experiência com no mínimo 20 caracteres."
             },
+            senha: {
+                required: "Por favor, insira uma senha.",
+                minlength: "A senha deve ter pelo menos 6 caracteres."
+            },
             confirmar_senha: {
+                required: "Por favor, confirme sua senha.",
                 equalTo: "As senhas não coincidem."
             }
         },
@@ -69,5 +83,5 @@ $(document).ready(function() {
             form.submit();
         }
     });
-    
+
 });
